@@ -12,3 +12,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(CMAKE_EXPORT_COMPILE_COMMANDS True)
 
 add_subdirectory(chap2)
+add_subdirectory(chap3)
