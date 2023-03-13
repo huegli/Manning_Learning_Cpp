@@ -1,5 +1,5 @@
 # Define targets
-set(TLIST temperature precedence intdivision)
+set(TLIST temperature precedence intdivision modulus sizeof decision ternary compare)
 
 # iterate through all targets
 foreach(T IN ITEMS ${TLIST})
