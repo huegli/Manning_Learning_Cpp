@@ -1,4 +1,4 @@
 build
 .kateproject
 *.kdev4
-
+.vscode
