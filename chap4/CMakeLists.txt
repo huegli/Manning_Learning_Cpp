@@ -1,5 +1,5 @@
 #Define targets
-set(TLIST ifelse ifelse2 zipifelse zipswitch while break password continue circle)
+set(TLIST ifelse ifelse2 zipifelse zipswitch while break password continue circle tshirt)
 
 #iterate through all targets
 foreach (T IN ITEMS ${TLIST})
