@@ -2,8 +2,8 @@
 
 int main()
 {
-    auto temperature { 0 };
-    auto wind_speed {0};
+    auto temperature{0};
+    auto wind_speed{0};
     auto isWindy{true};
     auto isCold{true};
 
@@ -29,7 +29,7 @@ int main()
         isCold = false;
     }
 
-    if (isWindy && isCold) 
+    if (isWindy && isCold)
     {
         std::cout << "I am not running\n";
     }

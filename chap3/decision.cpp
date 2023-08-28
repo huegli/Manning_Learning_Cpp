@@ -3,12 +3,12 @@
 
 int main()
 {
-    bool not_run{ false };
+    bool not_run{false};
     double temperature{};
     int wind_speed{};
 
-    const int wind_speed_for_run{ 25 };
-    const double temperature_for_run{ 45 };
+    const int wind_speed_for_run{25};
+    const double temperature_for_run{45};
     std::cout << std::boolalpha;
 
     std::cout << "Enter the current temperature :";
@@ -24,6 +24,6 @@ int main()
 
     not_run = (temperature < temperature_for_run && wind_speed > wind_speed_for_run);
     std::cout << "Using && (AND) to decide if you go for a run today: " << not_run << std::endl;
-   
+
     std::cout << std::endl;
 }

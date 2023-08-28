@@ -2,3 +2,4 @@ build
 .kateproject
 *.kdev4
 .vscode
+**/a.out

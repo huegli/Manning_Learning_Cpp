@@ -10,5 +10,4 @@ int main()
     Running = !(Wind && Cold);
 
     std::cout << "Today I am " << ((Running) ? "" : " not ") << "going to run" << std::endl;
-
 }
