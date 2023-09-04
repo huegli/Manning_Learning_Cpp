@@ -26,6 +26,12 @@ int main()
 
     for (int row = 0; row < ROWS; row++)
     {
+        spreadsheet[row][9] = 0;
+
+        for (int col = 0; col < 9; col++) {
+            spreadsheet[row][9] += spreadsheet[row][col];
+        }
+        
         std::cout << row + 1 << SEPERATOR;
         for (int col = 0; col < COLS; col++)
         {
